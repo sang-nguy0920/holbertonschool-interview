@@ -11,5 +11,11 @@
 
 heap_t *heap_insert(heap_t **root, int value)
 {
-
+if (!root)
+{
+return (NULL);
+}
+if (!*root)
+*root = binary_tree_node(NULL, value);
+return (*root);
 }
