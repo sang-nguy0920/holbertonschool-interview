@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stddef.h": "c",
-        "palindrome.h": "c"
+        "palindrome.h": "c",
+        "binary_trees.h": "c"
     }
 }
