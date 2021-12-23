@@ -28,7 +28,7 @@ arg1Num = argv[1][x] - '0';
 for (y = lenArg2 - 1; y >= 0; y--)
 {
 arg2Num = argv[2][y] - '0';
-leftover += answer[x + y + 1] + (arg1Num * arg2Num);
+leftover += answer[x + y + 1] + (arg1Num *arg2Num);
 answer[x + y + 1] = leftover % 10;
 leftover /= 10;
 }
